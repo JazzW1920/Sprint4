@@ -1,0 +1,22 @@
+header {
+    background-color: #f2f8fb;
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .logo-img {
+        width: 45px;
+        height: auto;
+    }
+
+    .logo-container {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .custom-dropdown {
+        background-color: #f2f8fb;
+    }
+}

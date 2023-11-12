@@ -1,0 +1,63 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  display: grid;
+}
+.card .title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.card .form {
+  margin-top: 20px;
+  display: grid;
+}
+.card .form .selectContainer {
+  display: grid;
+  margin-bottom: 20px;
+  justify-items: center;
+}
+.card .form .selectContainer select {
+  padding: 10px;
+  outline: 0;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+.card .form .group {
+  position: relative;
+}
+.card .form .group label {
+  font-size: 14px;
+  color: rgb(99, 102, 102);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.card .form .group input,
+.card .form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+}
+.card .form .group textarea {
+  resize: none;
+  height: 100px;
+}
+.card .form .group input:focus,
+.card .form .group textarea:focus {
+  border-color: #3366cc;
+}/*# sourceMappingURL=Contato.css.map */

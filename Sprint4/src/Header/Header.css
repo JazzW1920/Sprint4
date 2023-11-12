@@ -1,0 +1,18 @@
+header {
+  background-color: #f2f8fb;
+}
+header h1 {
+  font-size: 25px;
+}
+header .logo-img {
+  width: 45px;
+  height: auto;
+}
+header .logo-container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+header .custom-dropdown {
+  background-color: #f2f8fb;
+}/*# sourceMappingURL=Header.css.map */
